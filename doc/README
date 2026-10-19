@@ -1,0 +1,11 @@
+# Research Documents
+
+- research-plan.md: development order, required evidence, and decisions.
+- strategies/: separate notes for each strategy.
+- data/: data definitions, checks, and quality reports.
+- comparison/: rules for comparing strategies.
+- report/: report forms copied from plutus-project-template.
+
+The PDF and source ZIP files are blank report forms, not completed studies. Use the current Plutus V2 step names when writing new reports.
+
+Keep private books, extracted text, and search indexes in the workspace knowledge directory. Research notes may contain permitted citations, document IDs, checksums, and conclusions.

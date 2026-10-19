@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and analysis caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Local datasets
+/data/*
+!/data/README.md
+!/data/synthetic/
+
+# Local execution outputs
+/runs/
+/logs/
+
+# Plutus execution outputs
+/.plutus/run/
+
+# Editor and operating system
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

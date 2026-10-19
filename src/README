@@ -1,0 +1,9 @@
+# Source Code
+
+No strategy code has been added.
+
+Create the Python package after defining the first hypothesis and pipeline needs. Keep shared data handling, accounting, execution, and metrics separate from each strategy's trading rules.
+
+Pin dependencies and simulator versions. Do not import the sibling plutus checkout implicitly. Strategy code must work without the research knowledge service.
+
+Keep enough detail to trace each signal, order, fill, position, cash change, and fee.

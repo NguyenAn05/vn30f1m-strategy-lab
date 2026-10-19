@@ -1,0 +1,9 @@
+# Research Configuration
+
+No runnable configuration has been added.
+
+Future configurations should record the strategy, hypothesis version, data version, split, execution rules, costs, risk limits, random seed, and output folder. Keep strategy-specific settings under strategies/.
+
+Set the dataset root explicitly through local settings or a declared data source. Avoid hard-coded private paths. A container cannot be assumed to read the sibling data directory.
+
+Keep credentials out of tracked files. When needed, document variable names with placeholder values in .env.example.
