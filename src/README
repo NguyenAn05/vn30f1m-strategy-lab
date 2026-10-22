@@ -2,7 +2,9 @@
 
 No strategy code has been added.
 
-Create the Python package after defining the first hypothesis and pipeline needs. Keep shared data handling, accounting, execution, and metrics separate from each strategy's trading rules.
+The Python package contains the DNSE one-minute collector at vn30f1m_strategy_lab/data/fetch_dnse.py and the structural auditor at vn30f1m_strategy_lab/data/audit_dnse.py. They use only the standard library. See ../data/README.md for commands and file formats.
+
+Keep shared data handling, accounting, execution, and metrics separate from each strategy's trading rules.
 
 Pin dependencies and simulator versions. Do not import the sibling plutus checkout implicitly. Strategy code must work without the research knowledge service.
 

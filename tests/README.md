@@ -1,6 +1,6 @@
 # Correctness Checks
 
-No tests or strategy code have been added.
+The DNSE collector has synthetic checks in test_dnse_download.py. Run `python -m unittest discover -s tests -p 'test_dnse_download.py' -v` from the repository root. No strategy code has been added.
 
 Use synthetic examples with expected results calculated independently to check:
 

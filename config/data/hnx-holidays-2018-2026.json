@@ -1,0 +1,31 @@
+{
+  "coverage_start": "2018-08-13",
+  "coverage_end": "2026-10-21",
+  "reviewed_on": "2026-10-22",
+  "description": "Scheduled weekday closures transcribed from HNX annual notices and amendments. Does not establish whether an exceptional suspension occurred on another date. Weekends are non-trading days; office make-up Saturdays are not trading sessions.",
+  "holidays_by_year": {
+    "2018": ["2018-09-03", "2018-12-31"],
+    "2019": ["2019-01-01", "2019-02-04", "2019-02-05", "2019-02-06", "2019-02-07", "2019-02-08", "2019-04-15", "2019-04-29", "2019-04-30", "2019-05-01", "2019-09-02"],
+    "2020": ["2020-01-01", "2020-01-23", "2020-01-24", "2020-01-27", "2020-01-28", "2020-01-29", "2020-04-02", "2020-04-30", "2020-05-01", "2020-09-02"],
+    "2021": ["2021-01-01", "2021-02-10", "2021-02-11", "2021-02-12", "2021-02-15", "2021-02-16", "2021-04-21", "2021-04-30", "2021-05-03", "2021-09-02", "2021-09-03"],
+    "2022": ["2022-01-03", "2022-01-31", "2022-02-01", "2022-02-02", "2022-02-03", "2022-02-04", "2022-04-11", "2022-05-02", "2022-05-03", "2022-09-01", "2022-09-02"],
+    "2023": ["2023-01-02", "2023-01-20", "2023-01-23", "2023-01-24", "2023-01-25", "2023-01-26", "2023-05-01", "2023-05-02", "2023-05-03", "2023-09-01", "2023-09-04"],
+    "2024": ["2024-01-01", "2024-02-08", "2024-02-09", "2024-02-12", "2024-02-13", "2024-02-14", "2024-04-18", "2024-04-29", "2024-04-30", "2024-05-01", "2024-09-02", "2024-09-03"],
+    "2025": ["2025-01-01", "2025-01-27", "2025-01-28", "2025-01-29", "2025-01-30", "2025-01-31", "2025-04-07", "2025-04-30", "2025-05-01", "2025-05-02", "2025-09-01", "2025-09-02"],
+    "2026": ["2026-01-01", "2026-01-02", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-04-27", "2026-04-30", "2026-05-01", "2026-08-31", "2026-09-01", "2026-09-02"]
+  },
+  "sources": [
+    {"id": "hnx-2018", "url": "https://hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60000674.html?_page=1", "published": "2017-06-06"},
+    {"id": "hnx-2019-includes-2018-12-31", "url": "https://www.hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60002874.html?_page=1", "published": "2018-08-21"},
+    {"id": "hnx-2020", "url": "https://hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60006486.html?_page=1", "published": "2019-11-06"},
+    {"id": "hnx-2021", "url": "https://hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60010564.html?_page=1", "published": "2020-12-04"},
+    {"id": "hnx-2022", "url": "https://hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60013320.html?_page=1", "published": "2021-11-03"},
+    {"id": "hnx-2023", "url": "https://www.hnx.vn/vi-vn/m-tin-tuc-hnx/Thong%20bao%20ve%20viec%20cong%20bo%20lich%20nghi%20giao%20dich%20trong%20nam%202023-60015701-1.html", "published": "2022-12-14"},
+    {"id": "hnx-2024", "url": "https://www.hnx.vn/vi-vn/m-tin-tuc-hnx/Thong%20bao%20ve%20viec%20cong%20bo%20lich%20nghi%20giao%20dich%20trong%20nam%202024-60017878-1.html", "published": "2023-12-12"},
+    {"id": "hnx-2024-amendment-adds-april-29", "url": "https://www.hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60018631.html?_page=1", "published": "2024-04-19"},
+    {"id": "hnx-2025", "url": "https://www.tp.hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60020153.html?_page=1", "published": "2024-12-24"},
+    {"id": "hnx-2025-makeup-saturday-no-trading", "url": "https://hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60020906.html?_page=1", "published": "2025-04-22"},
+    {"id": "hnx-2026", "url": "https://vbma.hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60021971.html?_page=1", "published": "2025-12-03"},
+    {"id": "hnx-2026-amendment-adds-january-2", "url": "https://cms.hnx.vn/vi-vn/chi-tiet-lich-nghi-gd-60022084.html?_page=1", "published": "2025-12-25"}
+  ]
+}

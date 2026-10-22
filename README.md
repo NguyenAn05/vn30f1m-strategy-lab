@@ -4,7 +4,7 @@ This project studies six trading strategy families for VN30F1M futures. The goal
 
 ## Project Status
 
-The repository structure and research documents are ready. Step 1 has not started for any strategy. There is no strategy code, Python environment, or verified performance result yet. Plutus verification has not been run.
+The repository structure and research documents are ready. A standard-library Python collector can download DNSE one-minute candles into one CSV at `data/raw/VN30F1M_1m.csv`; see the [data instructions](data/README.md). Step 1 has not started for any strategy. There is no strategy code or verified performance result yet. Plutus verification has not been run.
 
 
 | Strategy family | Status             | Research notes                                            |
@@ -50,12 +50,11 @@ Each strategy has its own records and stage decisions. Move to the next stage wh
 | [AGENTS.md](AGENTS.md)                       | Working instructions                                |
 | [doc/research-plan.md](doc/research-plan.md) | Research order, required evidence, and decision log |
 | [doc/strategies/](doc/strategies/)           | Notes for each strategy                             |
-| [doc/data/](doc/data/README.md)              | Data checks and quality reports                     |
 | [doc/comparison/](doc/comparison/README.md)  | Rules for comparing strategies                      |
 | [doc/report/](doc/report/)                   | Report forms from the original template             |
 | [src/](src/README)                           | Future source code                                  |
 | [config/](config/README)                     | Future research configurations                      |
-| [data/](data/README.md)                      | Data policy and synthetic examples                  |
+| [data/](data/README.md)                      | Data policy, download and audit instructions         |
 | [tests/](tests/README.md)                    | Planned correctness checks                          |
 
 ## Data and Reproduction
@@ -64,7 +63,7 @@ Data coverage and suitability have not been checked. Restricted market data is n
 
 Before backtesting, record the data version, time splits, trading sessions, contracts, gaps, and execution assumptions. If data is missing, keep affected positions and results visible. Do not create a fill from a made-up price.
 
-The Python environment and Plutus manifest will be added when the first pipeline is defined. Dependencies must be pinned. Container runs must use a declared and permitted way to obtain their inputs.
+The collector requires Python 3.10 or later and no third-party packages. The strategy environment and Plutus manifest remain to be defined. Future dependencies must be pinned. Container runs must use a declared and permitted way to obtain their inputs.
 
 ## Next Step
 
